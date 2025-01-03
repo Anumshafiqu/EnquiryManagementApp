@@ -1,0 +1,22 @@
+img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  table th {
+    background-color: #f8f9fa;
+  }
+  
+  table td {
+    background-color: #fff;
+  }
+  
