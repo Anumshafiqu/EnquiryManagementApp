@@ -42,7 +42,7 @@ onSave(){
   this.masterservice.CreateNewEnquiry(this.enquiryObj).subscribe((res:any)=>{
     if(res.result){
       alert("Enquiry Created");
-      this.enquiryList.push({...this.enquiryObj});
+      this.enquiryList.push({ ...this.enquiryObj });
       this.resetForm();
     } else{
       alert(res.message)
